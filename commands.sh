@@ -44,3 +44,7 @@ git status
 git add .
 git commit -m 'initial commit'
 git push origin main
+kubectl set image deployment.apps/deployment-nginx -n ns-newnginx con-nginx=nginx:1.27.4
+
+
+
